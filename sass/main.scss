@@ -1,0 +1,310 @@
+$height: 750px;
+$colbg: #f2fafc;
+$colOsn: #f2ae52;
+$colBor: rgb(170, 103, 77);
+$font:'Oswald', sans-serif;
+$font2:'Open Sans', sans-serif;
+
+* {  
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+  background-color: $colbg!important;
+  font-family:$font!important;
+}
+
+//-------------Header
+
+header {
+  text-align: center;
+  height: $height;
+  background-image: url(../img/header-bg.png);
+  background-position: bottom;
+  background-position-y: 70px;
+  background-repeat:no-repeat;
+  overflow: hidden;
+}
+
+header h1 {
+  color: $colBor;
+  font-weight: bold;
+  font-size:72px;
+  display: inline-block;
+  margin-top: 60px;
+}
+
+header h2 {
+  color: $colOsn;
+  line-height: 30px;
+  font-family:$font2;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+header h3 {
+  color: $colOsn;
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-family:$font2;
+  font-size: 2rem;
+}
+
+header span {
+  position: relative;
+  top: -18px;
+}
+
+//---------Form
+
+.form  {
+  text-align: center;
+  width: 350px;
+  height: 385px;
+  background-color: rgba($colBor,.4);
+  margin: 0 auto;
+  margin-top:50px;
+}
+
+.form  h4 {
+  color: $colbg;
+  font-size: 2.3rem;
+  letter-spacing: 1px;
+  padding-top: 15px;
+
+}
+
+.form  span {
+  color: $colbg;
+  line-height: 61px;
+  font-size: 1.2rem;
+}
+
+.form input {
+  width: 320px;
+  height: 60px;
+  background-color: $colbg;
+  border: none;
+  font-size: 1.4rem;
+  font-family:$font;
+  text-align: center;
+  margin:-5px 0 20px 0;
+  color: $colBor;
+}
+::-webkit-input-placeholder {color: $colBor;}
+::-moz-placeholder          {color: $colBor;}
+:-moz-placeholder           {color: $colBor;}
+:-ms-input-placeholder      {color: $colBor;}
+
+.form button {
+  width: 320px;
+  height: 80px;
+  background-color: $colBor;
+  color:$colbg;
+  border: none;
+  text-transform: uppercase;
+  font-family:$font;
+  font-size:2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.form button:hover {
+  background-color: rgba($colBor,0.9);
+}
+
+//-------About
+
+.about {
+  padding: 35px 0 35px 0;
+  width: 100%;
+  color:$colbg;
+  background-color: $colOsn;
+  position: relative;
+  font-weight: 100;
+}
+
+.about p {
+  font-size: 1.1rem;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+.about img {
+  padding-left: 25px;
+}
+
+.ab-1:after, .ab-1:before, .ab-2:after {
+  content: '';
+  border: 2px solid $colbg;
+  height: 100px;
+  display: block;
+  position: absolute;
+  top: 20px;
+}
+.ab-1:after {
+  left: 0;
+}
+
+.ab-1:before {
+  right: 0;
+}
+
+.ab-2:after {
+  right: 0;
+}
+
+
+//--------Slider
+
+.slid {
+  height: 650px;
+  margin: 50px 0 50px 0;
+}
+
+//-------Info
+
+#info {
+  padding: 20px 0 20px 0;
+}
+
+.wrap-1 {
+  height: 400px;
+  margin: 0 0 25px 0;
+  margin: 0 auto;
+  background-image: url('../img/wrapbg-1.png');
+  background-repeat:no-repeat;
+  background-position: right;
+  max-width: 1920px;
+}
+
+.wrap-2 {
+  height: 400px;
+  margin: 0 auto;
+  background-image: url(../img/wrapbg-2.png);
+  background-repeat: no-repeat;
+  background-position-y: -200px;
+  background-position-x: -100px;
+  max-width: 1920px;
+}
+
+#info p {
+  color: $colBor;
+  font-size: 1.3rem;
+  padding-top: 50px;
+}
+
+.inf-1 {
+  text-align: left;
+}
+
+.inf-2 {
+  text-align: right;
+}
+
+.inf-1 p {
+  padding-right: 40%;
+}
+
+.inf-2 p {
+  padding-left: 40%;
+}
+//-------Dosage
+
+#dosage {
+  padding: 50px 0 50px 0;
+  color: $colBor;
+}
+
+#dosage h4 {
+  text-align: center;
+  color: $colBor;
+  font-size: 3rem;
+}
+
+#dosage p {
+  text-align: center;
+  color: $colBor;
+}
+#dosage table {
+  width: 100%;
+}
+
+#dosage table tr:nth-child(2n-1){
+  background-color: $colOsn;
+}
+
+#dosage table tr:hover {
+  //border: 2px solid black;
+  color: white;
+  background-color: black;
+}
+
+#dosage table td {
+  padding: 5px;
+}
+
+
+
+//-------Certificate
+
+#certificate {
+  padding: 50px 0 250px 0;
+  color: $colBor;
+  background-image: url('../img/skybg.png');
+  background-repeat:no-repeat;
+  background-position: -50px -110px;
+}
+
+.img-certificat{
+  margin-bottom: 50px;
+}
+
+.img-certificat img{
+  height: 250px;
+  display: block;
+  margin: 0 auto;
+}
+
+#certificate p {
+  padding: 0 50px 0 50px;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+//-----------Footer
+
+footer{
+  background-image: url('../img/footerbg.jpg');
+  background-repeat:no-repeat;
+  background-position: center;
+}
+
+footer form{
+  //margin-top: 0!important;
+  margin-bottom: 50px!important;
+}
+
+.about {
+  //height: 100px;
+  overflow: hidden;
+  transition-property: height;
+  transition-duration: 1s;
+}
+
+.video {
+  padding: 30px;
+  height: 640px;
+}
+
+@keyframes rot {
+  0% { transform: rotate(0)}
+  100% {transform: rotate(360deg)}
+
+}
+
+.logo img {
+  animation: rot 6s linear infinite;
+}

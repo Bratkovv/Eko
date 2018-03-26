@@ -1,0 +1,11 @@
+#openSlider {
+    width: 100%;
+    height: 100%;
+    background-color: #4cdbdb;
+    position: relative;
+    overflow: hidden;
+}
+#openSlider > img {
+    width: 100%;
+    
+}

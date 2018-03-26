@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f2fafc !important;
+  font-family: "Oswald", sans-serif !important;
+}
+
+header {
+  text-align: center;
+  height: 750px;
+  background-image: url(../img/header-bg.png);
+  background-position: bottom;
+  background-position-y: 70px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+header h1 {
+  color: #aa674d;
+  font-weight: bold;
+  font-size: 72px;
+  display: inline-block;
+  margin-top: 60px;
+}
+
+header h2 {
+  color: #f2ae52;
+  line-height: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+header h3 {
+  color: #f2ae52;
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+}
+
+header span {
+  position: relative;
+  top: -18px;
+}
+
+.form {
+  text-align: center;
+  width: 350px;
+  height: 385px;
+  background-color: rgba(170, 103, 77, 0.4);
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.form h4 {
+  color: #f2fafc;
+  font-size: 2.3rem;
+  letter-spacing: 1px;
+  padding-top: 15px;
+}
+
+.form span {
+  color: #f2fafc;
+  line-height: 61px;
+  font-size: 1.2rem;
+}
+
+.form input {
+  width: 320px;
+  height: 60px;
+  background-color: #f2fafc;
+  border: none;
+  font-size: 1.4rem;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  margin: -5px 0 20px 0;
+  color: #aa674d;
+}
+
+::-webkit-input-placeholder {
+  color: #aa674d;
+}
+
+::-moz-placeholder {
+  color: #aa674d;
+}
+
+:-moz-placeholder {
+  color: #aa674d;
+}
+
+:-ms-input-placeholder {
+  color: #aa674d;
+}
+
+.form button {
+  width: 320px;
+  height: 80px;
+  background-color: #aa674d;
+  color: #f2fafc;
+  border: none;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: rgba(170, 103, 77, 0.9);
+}
+
+.about {
+  padding: 35px 0 35px 0;
+  width: 100%;
+  color: #f2fafc;
+  background-color: #f2ae52;
+  position: relative;
+  font-weight: 100;
+}
+
+.about p {
+  font-size: 1.1rem;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+.about img {
+  padding-left: 25px;
+}
+
+.ab-1:after, .ab-1:before, .ab-2:after {
+  content: '';
+  border: 2px solid #f2fafc;
+  height: 100px;
+  display: block;
+  position: absolute;
+  top: 20px;
+}
+
+.ab-1:after {
+  left: 0;
+}
+
+.ab-1:before {
+  right: 0;
+}
+
+.ab-2:after {
+  right: 0;
+}
+
+.slid {
+  height: 650px;
+  margin: 50px 0 50px 0;
+}
+
+#info {
+  padding: 20px 0 20px 0;
+}
+
+.wrap-1 {
+  height: 400px;
+  margin: 0 0 25px 0;
+  margin: 0 auto;
+  background-image: url("../img/wrapbg-1.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  max-width: 1920px;
+}
+
+.wrap-2 {
+  height: 400px;
+  margin: 0 auto;
+  background-image: url(../img/wrapbg-2.png);
+  background-repeat: no-repeat;
+  background-position-y: -200px;
+  background-position-x: -100px;
+  max-width: 1920px;
+}
+
+#info p {
+  color: #aa674d;
+  font-size: 1.3rem;
+  padding-top: 50px;
+}
+
+.inf-1 {
+  text-align: left;
+}
+
+.inf-2 {
+  text-align: right;
+}
+
+.inf-1 p {
+  padding-right: 40%;
+}
+
+.inf-2 p {
+  padding-left: 40%;
+}
+
+#dosage {
+  padding: 50px 0 50px 0;
+  color: #aa674d;
+}
+
+#dosage h4 {
+  text-align: center;
+  color: #aa674d;
+  font-size: 3rem;
+}
+
+#dosage p {
+  text-align: center;
+  color: #aa674d;
+}
+
+#dosage table {
+  width: 100%;
+}
+
+#dosage table tr:nth-child(2n-1) {
+  background-color: #f2ae52;
+}
+
+#dosage table tr:hover {
+  color: white;
+  background-color: black;
+}
+
+#dosage table td {
+  padding: 5px;
+}
+
+#certificate {
+  padding: 50px 0 250px 0;
+  color: #aa674d;
+  background-image: url("../img/skybg.png");
+  background-repeat: no-repeat;
+  background-position: -50px -110px;
+}
+
+.img-certificat {
+  margin-bottom: 50px;
+}
+
+.img-certificat img {
+  height: 250px;
+  display: block;
+  margin: 0 auto;
+}
+
+#certificate p {
+  padding: 0 50px 0 50px;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+footer {
+  background-image: url("../img/footerbg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+footer form {
+  margin-bottom: 50px !important;
+}
+
+.about {
+  overflow: hidden;
+  transition-property: height;
+  transition-duration: 1s;
+}
+
+.video {
+  padding: 30px;
+  height: 640px;
+}
+
+@keyframes rot {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.logo img {
+  animation: rot 15s linear infinite;
+}
